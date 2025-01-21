@@ -33,7 +33,7 @@ ol {
 .menu ul li {
   display: inline-block;
 }
-.menu ul li a{
+.menu ul li a {
   padding: 0 24px;
   color: white;
   font-size: 14px;
@@ -79,85 +79,136 @@ ol {
   background-size: cover;
   background-position: center;
 }
-.overlay {
+.banner_image .overlay {
   padding: 200px 0 230px;
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
   font-size: 38.7px;
-  
 }
-.banner_image .overlay h1{
+.banner_image .overlay h1 {
   color: white;
-  
+
   font-weight: 900;
   font-family: "Playfair Display", serif;
   text-transform: uppercase;
   padding: 0 50px;
   line-height: 80px;
 }
-.banner_image .overlay p{
+.banner_image .overlay p {
   padding: 24px 303px 0;
   color: white;
   font-size: 19px;
   font-family: "Source Sans 3", serif;
-  
 }
 /* Banner Part End */
 
 /* About Part Start  */
-#about_part{
+#about_part {
   display: flex;
 }
-.about_img{
+.about_img {
   width: 50%;
   background: url(../images/about-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.about_img .overlay{
-  padding: 300px 0;
+.about_img .overlay {
+  padding: 230px 0;
   background: none;
 }
-.about_img img{
+.about_img img {
   width: 100%;
 }
-.about_text{
-  padding-top: 174px;
-  padding-bottom: 108px;
+.about_text {
+  padding-top: 108px;
+  padding-bottom: 45px;
   width: 50%;
 }
-.about_margin{
+.about_margin {
   width: 80%;
   margin: 0 auto;
-  
 }
-.about_heading h1{
+.about_heading h1 {
   font-family: "Playfair Display", serif;
   font-size: 29px;
   line-height: 32px;
   color: black;
 }
-.about_subheading{
+.about_subheading {
   margin-top: 37px;
   font-size: 19px;
   background: white;
   line-height: 24px;
   font-family: "Source Sans 3", serif;
-  color: #C1C3C1;
+  color: #c1c3c1;
 }
-.about_p{
+.about_p {
   margin-top: 37px;
   font-size: 19px;
   background: white;
   line-height: 24px;
   font-family: "Source Sans 3", serif;
-  color: #C1C3C1;
+  color: #c1c3c1;
 }
 /* About Part End */
 
-/* Banner Part Start  */
-/* Banner Part End */
+/* Service Part Start  */
+#service_part {
+  background: url(../images/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#service_part .overlay {
+  padding: 180px 0;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.service_text h2 {
+  padding: 0 270px;
+  font-size: 30px;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+.service_text p {
+  padding: 30px 370px 0;
+  color: white;
+  font-family: "Source Sans 3", serif;
+  font-size: 20px;
+}
+.flex_service {
+margin-top: 80px;  
+display: flex;
+  justify-content: space-between;
+}
+.service_item {
+  padding: 50px 15px;
+  background: #e8e8e8;
+  width: 13%;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  transition: 0.4s;
+}
+.service_item i {
+  font-size: 65px;
+}
+.service_item p {
+  padding-top: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Source Sans 3", serif;
+}
+.service_item:hover {
+  background: #e4b855;
+  color: white;
+  -webkit-box-shadow: 6px 14px 16px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 14px 16px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 14px 16px -2px rgba(0, 0, 0, 0.75);
+}
+/* Service Part End */
 
 /* Banner Part Start  */
 /* Banner Part End */

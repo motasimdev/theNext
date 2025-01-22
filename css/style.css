@@ -374,47 +374,50 @@ ol {
 .sermon_content {
   padding: 0 2px;
 }
-.sermon_content_heading h4{
+.sermon_content_heading h4 {
   color: white;
   font-size: 30px;
   font-family: "Playfair Display", serif;
 }
-.sermon_desk p{
+.sermon_desk p {
   display: inline-block;
   font-style: italic;
   font-size: 20px;
-  color: #A1A1A1;
+  color: #a1a1a1;
   font-family: "Source Sans 3", serif;
 }
-.sermon_desk .johan{
-  color: #E4B855;
+.sermon_desk .johan {
+  color: #e4b855;
   font-family: "Source Sans 3", serif;
   font-style: italic;
   font-size: 18px;
-  transition: .4s;
+  transition: 0.4s;
 }
-.sermon_desk .johan:hover{
+.sermon_desk .johan:hover {
   color: white;
 }
-.sermon_desk_date{
+.sermon_desk_date {
   padding-left: 30px;
 }
-.sermon_desk ul, li{
+.sermon_desk ul,
+li {
   display: inline-block;
 }
-.sermon_desk ul, li a{
+.sermon_desk ul,
+li a {
   padding-left: 20px;
   color: white;
   font-size: 35px;
-  transition: .4s;
+  transition: 0.4s;
 }
-.sermon_desk ul, li a:hover{
-  color: #E4B855;
+.sermon_desk ul,
+li a:hover {
+  color: #e4b855;
 }
-.sermon_content .dtl{
+.sermon_content .dtl {
   padding: 24px 285px 15px 0;
   font-size: 20px;
-  color: #A1A1A1;
+  color: #a1a1a1;
   font-family: "Source Sans 3", serif;
 }
 .sermon_btn p {
@@ -424,7 +427,7 @@ ol {
   font-family: "Source Sans 3", serif;
   color: #606060;
 }
-.sermon_btn a{
+.sermon_btn a {
   font-style: italic;
   font-family: "Source Sans 3", serif;
   font-size: 18px;
@@ -454,7 +457,7 @@ ol {
 
 /* News Part Start  */
 #news_part {
-  padding: 10px 0;
+  padding: 10px 0 40px;
 }
 .news_heading {
   padding: 90px 0;
@@ -470,35 +473,48 @@ ol {
   font-family: "Source Sans 3", serif;
   color: #606060;
 }
-.news_flex{
+.news_flex {
   display: flex;
   flex-wrap: wrap;
 }
-.new_image_one{
+.new_image_one {
   width: 50%;
 }
-.news_content{
+.new_image_one img{
+  width: 100%;
+  transition: .4s;
+}
+.new_image_one img:hover {
+  -webkit-box-shadow: 0px 8px 13px 0px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 8px 13px 0px rgba(0, 0, 0, 0.53);
+  box-shadow: 0px 8px 13px 0px rgba(0, 0, 0, 0.53);
+}
+.news_content {
   width: 50%;
   padding: 120px 0;
 }
 .news_date_by {
+  padding-left: 30px;
   color: #606060;
   font-family: "Source Sans 3", serif;
   font-size: 20px;
 }
-.news_date_by .by{
+.news_date_by .by {
   padding-left: 40px;
   font-family: "Source Sans 3", serif;
   font-size: 20px;
 }
-.news_date_by .ad{
+.news_date_by .ad {
   padding: 0;
-  color: #E4B855;
+  color: #e4b855;
   font-family: "Source Sans 3", serif;
   font-size: 20px;
 }
-.news_date_by .ad:hover{
+.news_date_by .ad:hover {
   color: black;
+}
+.news_pera{
+  padding-left: 31px;
 }
 .news_pera h1 {
   font-size: 30px;
@@ -526,6 +542,5 @@ ol {
   color: #606060;
 }
 /* News Part End */
-
 
 /* Banner Part Start  */

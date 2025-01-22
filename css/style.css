@@ -352,7 +352,7 @@ ol {
 }
 .sermon_flex {
   display: flex;
-  column-gap: 50px;
+  column-gap: 40px;
 }
 
 /* Sermon Bg One Start  */
@@ -372,7 +372,7 @@ ol {
   background: rgba(0, 0, 0, 0.8);
 }
 .sermon_content {
-  padding: 10px 0px;
+  padding: 0 2px;
 }
 .sermon_content_heading h4{
   color: white;

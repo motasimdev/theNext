@@ -337,7 +337,7 @@ ol {
   position: relative;
 }
 .sermon_heading {
-  padding-bottom: 120px;
+  padding-bottom: 90px;
   text-align: center;
 }
 .sermon_heading h1 {
@@ -452,6 +452,79 @@ ol {
 }
 /* Sermon Part End
 
-/* Banner Part Start  */
-/* Banner Part End */
+/* News Part Start  */
+#news_part {
+  padding: 10px 0;
+}
+.news_heading {
+  padding: 90px 0;
+  text-align: center;
+}
+.news_heading h1 {
+  font-size: 33px;
+}
+.news_heading p {
+  padding: 0 320px;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Source Sans 3", serif;
+  color: #606060;
+}
+.news_flex{
+  display: flex;
+}
+.new_image_one{
+  width: 50%;
+}
+.news_content{
+  width: 50%;
+  padding: 120px 0;
+}
+.news_date_by {
+  color: #606060;
+  font-family: "Source Sans 3", serif;
+  font-size: 20px;
+}
+.news_date_by .by{
+  padding-left: 40px;
+  font-family: "Source Sans 3", serif;
+  font-size: 20px;
+}
+.news_date_by .ad{
+  padding: 0;
+  color: #E4B855;
+  font-family: "Source Sans 3", serif;
+  font-size: 20px;
+}
+.news_date_by .ad:hover{
+  color: black;
+}
+.news_pera h1 {
+  font-size: 30px;
+  color: black;
+  transition: 0.4s;
+}
+.news_pera h1:hover {
+  color: #e4b855;
+}
+.news_pera p {
+  padding: 12px 123px 12px 0;
+  font-size: 19px;
+  line-height: 27px;
+  font-family: "Source Sans 3", serif;
+  color: #606060;
+}
+.news_pera .news_btn a {
+  font-style: italic;
+  font-family: "Source Sans 3", serif;
+  font-size: 18px;
+  color: #e4b855;
+  transition: 0.4s;
+}
+.news_pera a:hover {
+  color: #606060;
+}
+/* News Part End */
+
+
 /* Banner Part Start  */

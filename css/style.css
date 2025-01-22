@@ -352,10 +352,12 @@ ol {
 }
 .sermon_flex {
   display: flex;
+  column-gap: 50px;
 }
+
+/* Sermon Bg One Start  */
 .sermon_bg_one {
   padding-top: 180px;
-  /* height: 460px; */
   width: 50%;
   background: url(../images/sermons-01.jpg);
   background-repeat: no-repeat;
@@ -431,6 +433,22 @@ ol {
 }
 .sermon_btn a:hover {
   color: #606060;
+}
+/* Serrmon Bg Two Start  */
+.sermon_bg_two {
+  padding-top: 180px;
+  width: 50%;
+  background: url(../images/sermons-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sermon_bg_two img {
+  width: 100%;
+}
+.sermon_bg_two .overlay {
+  padding: 53px 20px 30px;
+  background: rgba(0, 0, 0, 0.8);
 }
 /* Sermon Part End
 

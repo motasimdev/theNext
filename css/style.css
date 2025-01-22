@@ -472,6 +472,7 @@ ol {
 }
 .news_flex{
   display: flex;
+  flex-wrap: wrap;
 }
 .new_image_one{
   width: 50%;

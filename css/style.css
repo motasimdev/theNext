@@ -354,8 +354,8 @@ ol {
   display: flex;
 }
 .sermon_bg_one {
-  /* padding-top: 80px;
-  height: 460px; */
+  padding-top: 180px;
+  /* height: 460px; */
   width: 50%;
   background: url(../images/sermons-01.jpg);
   background-repeat: no-repeat;
@@ -367,7 +367,10 @@ ol {
 }
 .sermon_bg_one .overlay {
   padding: 53px 20px 30px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
+}
+.sermon_content {
+  padding: 10px 0px;
 }
 .sermon_content_heading h4{
   color: white;

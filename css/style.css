@@ -24,6 +24,7 @@ ol {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 .nav_bar {
   display: flex;
@@ -213,17 +214,18 @@ ol {
 
 /* Introduce Part Start  */
 #introduce_part {
-  padding: 130px;
+  padding: 90px 0;
+  position: relative;
 }
 .introduce_heading {
-  padding: 70px;
+  padding: 70px 0;
   text-align: center;
 }
 .introduce_heading h1 {
   font-size: 33px;
 }
 .introduce_heading p {
-  padding: 0 180px;
+  padding: 0 320px;
   font-size: 22px;
   line-height: 26px;
   font-family: "Source Sans 3", serif;
@@ -242,9 +244,9 @@ ol {
 .introduce_l_item h1 {
   font-size: 30px;
   color: black;
-  transition: .4s;
+  transition: 0.4s;
 }
-.introduce_l_item h1:hover{
+.introduce_l_item h1:hover {
   color: #e4b855;
 }
 .introduce_l_item p {
@@ -254,14 +256,14 @@ ol {
   font-family: "Source Sans 3", serif;
   color: #606060;
 }
-.introduce_l_item .introduce_btn a{
+.introduce_l_item .introduce_btn a {
   font-style: italic;
   font-family: "Source Sans 3", serif;
   font-size: 18px;
   color: #e4b855;
-  transition: .4s;
+  transition: 0.4s;
 }
-.introduce_l_item a:hover{
+.introduce_l_item a:hover {
   color: #606060;
 }
 .introduce_r_item {
@@ -284,9 +286,9 @@ ol {
   padding-left: 125px;
   font-size: 30px;
   color: black;
-  transition: .4s;
+  transition: 0.4s;
 }
-.introduce_l_item_down h1:hover{
+.introduce_l_item_down h1:hover {
   color: #e4b855;
 }
 .introduce_l_item_down p {
@@ -296,22 +298,139 @@ ol {
   font-family: "Source Sans 3", serif;
   color: #606060;
 }
-.introduce_l_item_down .introduce_btn a{
+.introduce_l_item_down .introduce_btn a {
   padding-left: 125px;
   font-style: italic;
   font-family: "Source Sans 3", serif;
   font-size: 18px;
   color: #e4b855;
-  transition: .4s;
+  transition: 0.4s;
 }
-.introduce_l_item_down .introduce_btn a:hover{
+.introduce_l_item_down .introduce_btn a:hover {
   color: #606060;
 }
-
+#introduce_part .box {
+  height: 200px;
+  width: 200px;
+  background: #e4b855;
+  border: 10px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translatex(-50%);
+  text-align: center;
+}
+.box p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+  font-family: "Source Sans 3", serif;
+}
 /* Introduce Part End */
 
-/* Banner Part Start  */
-/* Banner Part End */
+/* Sermon Part Start  */
+#sermon_part {
+  padding: 40px 0;
+  position: relative;
+}
+.sermon_heading {
+  padding-bottom: 120px;
+  text-align: center;
+}
+.sermon_heading h1 {
+  font-size: 33px;
+}
+.sermon_heading p {
+  padding: 0 320px;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Source Sans 3", serif;
+  color: #606060;
+}
+.sermon_flex {
+  display: flex;
+}
+.sermon_bg_one {
+  /* padding-top: 80px;
+  height: 460px; */
+  width: 50%;
+  background: url(../images/sermons-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sermon_bg_one img {
+  width: 100%;
+}
+.sermon_bg_one .overlay {
+  padding: 53px 20px 30px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.sermon_content_heading h4{
+  color: white;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+}
+.sermon_desk p{
+  display: inline-block;
+  font-style: italic;
+  font-size: 20px;
+  color: #A1A1A1;
+  font-family: "Source Sans 3", serif;
+}
+.sermon_desk .johan{
+  color: #E4B855;
+  font-family: "Source Sans 3", serif;
+  font-style: italic;
+  font-size: 18px;
+  transition: .4s;
+}
+.sermon_desk .johan:hover{
+  color: white;
+}
+.sermon_desk_date{
+  padding-left: 30px;
+}
+.sermon_desk ul, li{
+  display: inline-block;
+}
+.sermon_desk ul, li a{
+  padding-left: 20px;
+  color: white;
+  font-size: 35px;
+  transition: .4s;
+}
+.sermon_desk ul, li a:hover{
+  color: #E4B855;
+}
+.sermon_content .dtl{
+  padding: 24px 285px 15px 0;
+  font-size: 20px;
+  color: #A1A1A1;
+  font-family: "Source Sans 3", serif;
+}
+.sermon_btn p {
+  padding: 12px 0 12px 125px;
+  font-size: 19px;
+  line-height: 27px;
+  font-family: "Source Sans 3", serif;
+  color: #606060;
+}
+.sermon_btn a{
+  font-style: italic;
+  font-family: "Source Sans 3", serif;
+  font-size: 18px;
+  color: #e4b855;
+  transition: 0.4s;
+}
+.sermon_btn a:hover {
+  color: #606060;
+}
+/* Sermon Part End
+
 /* Banner Part Start  */
 /* Banner Part End */
 /* Banner Part Start  */

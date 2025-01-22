@@ -544,4 +544,169 @@ li a:hover {
 }
 /* News Part End */
 
-/* Banner Part Start  */
+/* Word Part Start  */
+#word_part{
+  padding: 50px 0;
+}
+.word_part_image{
+  background: url(../images/events-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.word_part_image .overlay{
+  padding: 150px;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+.word_text{
+  padding: 43px 0;
+  border: 2px solid white;
+}
+.word_text i{
+  color: #E4B855;
+  font-size: 50px;
+}
+.word_text h1{
+  padding: 0 20px;
+  color: white;
+  font-size: 38px;
+  font-family: 'Playfair Display', serif;
+}
+.word_text p{
+  color: #E4B855;
+  font-size: 20px;
+  font-family: "Source Sans 3", serif;
+}
+
+/* Word Part End  */
+
+/* Soon Part Start  */
+#soon_part{
+  padding: 10px 0;
+}
+.soon_heading {
+  padding: 90px 0;
+  text-align: center;
+}
+.soon_heading h1 {
+  font-size: 33px;
+}
+.soon_heading p {
+  padding: 0 320px;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Source Sans 3", serif;
+  color: #606060;
+}
+.soon_flex{
+display: flex;
+justify-content: space-between;
+column-gap: 30px;
+}
+.soon_image_one{
+  padding-top: 200px;
+  background: url(../images/gallery-10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.soon_image_one .overlay{
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.soon_pera{
+  padding-left: 31px;
+}
+.soon_pera h1 {
+  font-size: 30px;
+  color: white;
+  transition: 0.4s;
+}
+.soon_pera h1:hover {
+  color: #e4b855;
+}
+.soon_pera p {
+  padding: 12px 123px 12px 0;
+  font-size: 19px;
+  line-height: 27px;
+  font-family: "Source Sans 3", serif;
+  color: #606060;
+}
+.soon_pera .soon_btn a {
+  font-style: italic;
+  font-family: "Source Sans 3", serif;
+  font-size: 18px;
+  color: #e4b855;
+  transition: 0.4s;
+}
+.soon_pera a:hover {
+  color: #606060;
+}
+/* Soon Part End  */
+
+/* Donation Part Start  */
+#donation_part{
+  padding: 100px 0;
+}
+.donation_bg{
+  background: url(../images/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.donation_overlay{
+  padding: 0 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.donation_heading {
+  padding: 90px 0;
+  text-align: center;
+}
+.donation_heading h1 {
+  color: white;
+  font-size: 33px;
+}
+.donation_heading p {
+  padding: 0 320px;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Source Sans 3", serif;
+  color: #ABABAB;
+}
+.donation_info{
+  padding: 75px 0 55px 9px;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+}
+.donation_info_one .soon_pera{
+  padding: 0 0;
+}
+.donation_info_one .soon_pera h1 {
+  font-size: 30px;
+  color: black;
+  transition: 0.4s;
+}
+.donation_info_one .soon_pera h1:hover {
+  color: #e4b855;
+}
+.donation_info_one .donation_info_p{
+  display: inline-block;
+  padding-right: 0;
+}
+/* Donation Part End  */
+
+/* Word Part Start  */
+/* Word Part End  */
+
+/* Word Part Start  */
+/* Word Part End  */
+/* Word Part Start  */
+/* Word Part End  */
+
+/* Word Part Start  */
+/* Word Part End  */
+
+/* Word Part Start  */
+/* Word Part End  */

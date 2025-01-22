@@ -13,6 +13,7 @@ ol {
 .container {
   width: 1320px;
   margin: 0 auto;
+  max-width: 100%;
 }
 /* All Common Css End */
 
@@ -137,11 +138,11 @@ ol {
 }
 .about_subheading {
   margin-top: 37px;
-  font-size: 19px;
+  font-size: 22px;
   background: white;
-  line-height: 24px;
+  line-height: 26px;
   font-family: "Source Sans 3", serif;
-  color: #c1c3c1;
+  color: #606060;
 }
 .about_p {
   margin-top: 37px;
@@ -149,7 +150,7 @@ ol {
   background: white;
   line-height: 24px;
   font-family: "Source Sans 3", serif;
-  color: #c1c3c1;
+  color: #606060;
 }
 /* About Part End */
 
@@ -179,8 +180,8 @@ ol {
   font-size: 20px;
 }
 .flex_service {
-margin-top: 80px;  
-display: flex;
+  margin-top: 80px;
+  display: flex;
   justify-content: space-between;
 }
 .service_item {
@@ -210,8 +211,102 @@ display: flex;
 }
 /* Service Part End */
 
-/* Banner Part Start  */
-/* Banner Part End */
+/* Introduce Part Start  */
+#introduce_part {
+  padding: 130px;
+}
+.introduce_heading {
+  padding: 70px;
+  text-align: center;
+}
+.introduce_heading h1 {
+  font-size: 33px;
+}
+.introduce_heading p {
+  padding: 0 180px;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Source Sans 3", serif;
+  color: #606060;
+}
+.introduce_flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* introduce l item start  */
+.introduce_l_item {
+  padding: 90px 0;
+  width: 50%;
+}
+.introduce_l_item h1 {
+  font-size: 30px;
+  color: black;
+  transition: .4s;
+}
+.introduce_l_item h1:hover{
+  color: #e4b855;
+}
+.introduce_l_item p {
+  padding: 12px 123px 10px 0;
+  font-size: 19px;
+  line-height: 27px;
+  font-family: "Source Sans 3", serif;
+  color: #606060;
+}
+.introduce_l_item .introduce_btn a{
+  font-style: italic;
+  font-family: "Source Sans 3", serif;
+  font-size: 18px;
+  color: #e4b855;
+  transition: .4s;
+}
+.introduce_l_item a:hover{
+  color: #606060;
+}
+.introduce_r_item {
+  width: 50%;
+}
+.introduce_r_item img {
+  width: 100%;
+}
+
+/* introduce l item down start  */
+.introduce_l_item_down {
+  padding: 90px 0;
+  width: 50%;
+}
+.introduce_l_item_down {
+  padding: 90px 0;
+  width: 50%;
+}
+.introduce_l_item_down h1 {
+  font-size: 30px;
+  color: black;
+  transition: .4s;
+}
+.introduce_l_item_down h1:hover{
+  color: #e4b855;
+}
+.introduce_l_item_down p {
+  padding: 12px 123px 10px 0;
+  font-size: 19px;
+  line-height: 27px;
+  font-family: "Source Sans 3", serif;
+  color: #606060;
+}
+.introduce_l_item_down .introduce_btn a{
+  font-style: italic;
+  font-family: "Source Sans 3", serif;
+  font-size: 18px;
+  color: #e4b855;
+  transition: .4s;
+}
+.introduce_l_item_down a:hover{
+  color: #606060;
+}
+
+/* Introduce Part End */
 
 /* Banner Part Start  */
 /* Banner Part End */

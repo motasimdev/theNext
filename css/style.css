@@ -775,12 +775,9 @@ li a:hover {
 /* Portfolio Part End  */
 
 /* Email Bar Part Start  */
-
-/* Email Bar Part End  */
-
-/* Word Part Start  */
 #email_bar_part {
   padding: 5px 0;
+  padding-bottom: 50px;
 }
 .email_bar_bg {
   background: url(../images/bg-img.jpg);
@@ -813,6 +810,33 @@ li a:hover {
   color: #e4b855;
   background: white;
 }
+/* Email Bar Part End  */
+
+/* Support Part Start  */
+#support_part{
+
+}
+.support_heading {
+  padding: 90px 0;
+  text-align: center;
+}
+.support_heading h1 {
+  color: black;
+  font-size: 33px;
+}
+.support_heading p {
+  padding: 0 320px;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Source Sans 3", serif;
+  color: #606060;
+}
+.support_image{
+  
+}
+/* Support Part End  */
+
+/* Word Part Start  */
 /* Word Part End  */
 
 /* Word Part Start  */

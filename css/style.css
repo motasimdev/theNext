@@ -831,9 +831,19 @@ li a:hover {
   font-family: "Source Sans 3", serif;
   color: #606060;
 }
-.support_image{
-  
+.support_flex{
+  display: flex;
+  justify-content: space-between;
 }
+.support_image{
+  padding: 50px 0;
+  background: #FBFBFB;
+}
+.support_image img{
+  padding: 0 50px;
+  width: 200px;
+}
+
 /* Support Part End  */
 
 /* Word Part Start  */

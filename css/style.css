@@ -864,10 +864,16 @@ li a:hover {
 .footer_flex_one ul li{
   color: #757575;
   font-family: "Source Sans 3", serif;
-
+  font-size: 17px;
 }
 .footer_flex_one .left_pad{
   padding-left: 13px;
+}
+.footer_number{
+  padding-top: 10px;
+}
+.left_pad_nmbr{
+  padding-left: 63px;
 }
 /* Footer Part End  */
 

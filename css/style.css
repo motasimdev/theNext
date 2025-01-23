@@ -757,6 +757,14 @@ li a:hover {
   font-family: "Source Sans 3", serif;
   color: #606060;
 }
+.portfolio_flex{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+.port_image_one{
+  width: 760px;
+}
 /* Portfolio Part End  */
 
 /* Word Part Start  */

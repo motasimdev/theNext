@@ -853,10 +853,16 @@ li a:hover {
 /* Footer Part Start  */
 #footer_part{
   padding: 100px 0;
-  background: black;
+  background: #161616;
 }
 .footer_flex{
   display: flex;
+  justify-content: space-between;
+}
+
+/* footer_flex_one start  */
+.footer_flex_one{
+  width: 256px;
 }
 .footer_flex_one img{
   padding-bottom: 20px;
@@ -868,12 +874,33 @@ li a:hover {
 }
 .footer_flex_one .left_pad{
   padding-left: 13px;
+  transition: .4s;
 }
 .footer_number{
   padding-top: 10px;
 }
 .left_pad_nmbr{
   padding-left: 63px;
+  transition: .4s;
+}
+.footer_number .left_pad_nmbr:hover{
+  color: #e4b855;
+}
+.footer_number .left_pad:hover{
+  color: #e4b855;
+}
+/* footer_flex_two start*/
+.footer_flex_two{
+  width: 256px;
+}
+.footer_flex_two p{
+  color: #e4b855;
+  font-size: 20px;
+  font-family: "Source Sans 3", serif;
+}
+.footer_flex_two_flex{
+  display: flex;
+  column-gap: 10px;
 }
 /* Footer Part End  */
 

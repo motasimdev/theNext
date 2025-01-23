@@ -851,7 +851,24 @@ li a:hover {
 /* Support Part End  */
 
 /* Footer Part Start  */
+#footer_part{
+  padding: 100px 0;
+  background: black;
+}
+.footer_flex{
+  display: flex;
+}
+.footer_flex_one img{
+  padding-bottom: 20px;
+}
+.footer_flex_one ul li{
+  color: #757575;
+  font-family: "Source Sans 3", serif;
 
+}
+.footer_flex_one .left_pad{
+  padding-left: 13px;
+}
 /* Footer Part End  */
 
 /* Word Part Start  */

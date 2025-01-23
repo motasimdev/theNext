@@ -740,7 +740,7 @@ li a:hover {
 /* Portfolio Part Start  */
 #portfolio_part {
   padding: 10px 0;
-  background: #F9F9F9;
+  background: #f9f9f9;
 }
 .portfolio_heading {
   padding: 90px 0;
@@ -757,20 +757,62 @@ li a:hover {
   font-family: "Source Sans 3", serif;
   color: #606060;
 }
-.portfolio_flex{
+.portfolio_flex {
   display: flex;
   flex-wrap: wrap;
   column-gap: 20px;
 }
-.port_image_one{
+.port_image_one {
   width: 760px;
+}
+.port_image_two {
+  width: 400px;
+}
+.port_image_three {
+  height: 200px;
+  width: 400px;
 }
 /* Portfolio Part End  */
 
-/* Word Part Start  */
-/* Word Part End  */
+/* Email Bar Part Start  */
+
+/* Email Bar Part End  */
 
 /* Word Part Start  */
+#email_bar_part {
+  padding: 5px 0;
+}
+.email_bar_bg {
+  background: url(../images/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.email_bar_overlay {
+  padding: 200px 0;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+.email_bar_overlay h3 {
+  padding: 0 300px 30px;
+  color: white;
+  font-family: "Source Sans 3", serif;
+  font-style: italic;
+  font-size: 20px;
+}
+.email_bar_overlay a {
+  padding: 18px 37px;
+  color: white;
+  font-family: "Source Sans 3", serif;
+  font-size: 13px;
+  background: #e4b855;
+  border-radius: 50px;
+  transition: 0.4s;
+}
+.email_bar_overlay a:hover {
+  color: #e4b855;
+  background: white;
+}
 /* Word Part End  */
 
 /* Word Part Start  */

@@ -481,9 +481,9 @@ li a:hover {
 .new_image_one {
   width: 50%;
 }
-.new_image_one img{
+.new_image_one img {
   width: 100%;
-  transition: .4s;
+  transition: 0.4s;
 }
 .new_image_one img:hover {
   -webkit-box-shadow: 0px 8px 13px 0px rgba(0, 0, 0, 0.53);
@@ -514,7 +514,7 @@ li a:hover {
 .news_date_by .ad:hover {
   color: black;
 }
-.news_pera{
+.news_pera {
   padding-left: 31px;
 }
 .news_pera h1 {
@@ -545,36 +545,36 @@ li a:hover {
 /* News Part End */
 
 /* Word Part Start  */
-#word_part{
+#word_part {
   padding: 50px 0;
 }
-.word_part_image{
+.word_part_image {
   background: url(../images/events-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.word_part_image .overlay{
+.word_part_image .overlay {
   padding: 150px;
   background: rgba(0, 0, 0, 0.7);
   text-align: center;
 }
-.word_text{
+.word_text {
   padding: 43px 0;
   border: 2px solid white;
 }
-.word_text i{
-  color: #E4B855;
+.word_text i {
+  color: #e4b855;
   font-size: 50px;
 }
-.word_text h1{
+.word_text h1 {
   padding: 0 20px;
   color: white;
   font-size: 38px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
-.word_text p{
-  color: #E4B855;
+.word_text p {
+  color: #e4b855;
   font-size: 20px;
   font-family: "Source Sans 3", serif;
 }
@@ -582,7 +582,7 @@ li a:hover {
 /* Word Part End  */
 
 /* Soon Part Start  */
-#soon_part{
+#soon_part {
   padding: 10px 0;
 }
 .soon_heading {
@@ -599,23 +599,23 @@ li a:hover {
   font-family: "Source Sans 3", serif;
   color: #606060;
 }
-.soon_flex{
-display: flex;
-justify-content: space-between;
-column-gap: 30px;
+.soon_flex {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
 }
-.soon_image_one{
+.soon_image_one {
   padding-top: 200px;
   background: url(../images/gallery-10.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.soon_image_one .overlay{
+.soon_image_one .overlay {
   padding: 20px 0;
   background: rgba(0, 0, 0, 0.7);
 }
-.soon_pera{
+.soon_pera {
   padding-left: 31px;
 }
 .soon_pera h1 {
@@ -646,16 +646,16 @@ column-gap: 30px;
 /* Soon Part End  */
 
 /* Donation Part Start  */
-#donation_part{
+#donation_part {
   padding: 100px 0;
 }
-.donation_bg{
+.donation_bg {
   background: url(../images/bg-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.donation_overlay{
+.donation_overlay {
   padding: 0 0;
   background: rgba(0, 0, 0, 0.6);
 }
@@ -672,15 +672,15 @@ column-gap: 30px;
   font-size: 22px;
   line-height: 26px;
   font-family: "Source Sans 3", serif;
-  color: #ABABAB;
+  color: #ababab;
 }
-.donation_info{
+.donation_info {
   padding: 75px 0 55px 9px;
   display: flex;
   justify-content: space-between;
-  background: white;
+  background: #f8f8f8;
 }
-.donation_info_one .soon_pera{
+.donation_info_one .soon_pera {
   padding: 0 0;
 }
 .donation_info_one .soon_pera h1 {
@@ -691,17 +691,74 @@ column-gap: 30px;
 .donation_info_one .soon_pera h1:hover {
   color: #e4b855;
 }
-.donation_info_one .donation_info_p{
+.donation_info_one .donation_info_p {
   display: inline-block;
   padding-right: 0;
 }
 /* Donation Part End  */
 
-/* Word Part Start  */
-/* Word Part End  */
+/* Cause Part Start  */
+#cause_part {
+  padding-bottom: 150px;
+}
+.cause_heading {
+  padding: 90px 0;
+  text-align: center;
+}
+.cause_heading h1 {
+  color: black;
+  font-size: 33px;
+}
+.cause_heading p {
+  padding: 0 320px;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Source Sans 3", serif;
+  color: #606060;
+}
+.cause_flex {
+  display: flex;
+}
+.cause_image {
+  text-align: center;
+}
+.cause_image img {
+  border-radius: 50%;
+}
+.cause_image h1 {
+  padding: 20px 0;
+  font-family: "Source Sans 3", serif;
+  color: #606060;
+}
+.cause_image p {
+  color: #606060;
+  font-size: 16px;
+  font-family: "Source Sans 3", serif;
+}
+/* Cause Part End  */
 
-/* Word Part Start  */
-/* Word Part End  */
+/* Portfolio Part Start  */
+#portfolio_part {
+  padding: 10px 0;
+  background: #F9F9F9;
+}
+.portfolio_heading {
+  padding: 90px 0;
+  text-align: center;
+}
+.portfolio_heading h1 {
+  color: black;
+  font-size: 33px;
+}
+.portfolio_heading p {
+  padding: 0 320px;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Source Sans 3", serif;
+  color: #606060;
+}
+/* Portfolio Part End  */
+
 /* Word Part Start  */
 /* Word Part End  */
 
